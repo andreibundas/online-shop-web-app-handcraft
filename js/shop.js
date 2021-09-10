@@ -8,7 +8,6 @@ window.Shop = {
             method: "GET"
         }).done(function (response) {
             Shop.displayProducts(response.content);
-            // console.log(response);
         });
     },
 
@@ -80,8 +79,3 @@ window.Shop = {
 
 Shop.getProducts();
 Shop.bindEvents();
-
-//
-// <a class="cart" href="#">Add to Cart data-product_id="${product.id}" </a>
-//
-// <a class="cart" data-quantity="1" data-product_sku="" data-product_id="${product.id}" rel="nofollow" href="#">Add to Cart</a>

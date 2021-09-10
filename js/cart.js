@@ -52,5 +52,3 @@ window.Cart = {
 }
 
 Cart.getCart();
-
-// <img class="img-fluid" src="images/img-pro-01.jpg" alt=""/>
